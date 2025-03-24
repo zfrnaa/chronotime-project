@@ -7,8 +7,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:chronotime_project/main.dart'; // Adjust based on your project structure
-import 'package:chronotime_project/core/login.dart';
+import 'package:chronotime_project/lib/main.dart'; // Adjust based on your project structure
+import 'package:chronotime_project/lib/core/login.dart';
 
 void main() {
   testWidgets('Firebase initializes and navigates to LoginPage', (WidgetTester tester) async {
